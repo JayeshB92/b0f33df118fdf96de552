@@ -27,7 +27,7 @@ class Api::RobotController < ApplicationController
   private
 
   def valid_positions
-    (0..5).to_a
+    (0..4).to_a
   end
 
   def valid_position?(x,y)
